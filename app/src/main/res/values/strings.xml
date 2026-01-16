@@ -1,3 +1,75 @@
 <resources>
-    <string name="app_name">JuraganKost</string>
+    <string name="app_name">Juragan Kost</string>
+    <string name="app_tagline">Kelola bisnis kost jadi lebih mudah</string>
+    <string name="loading">Memuat data...</string>
+    <string name="error_generic">Terjadi kesalahan</string>
+    <string name="btn_save">Simpan</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_back">Kembali</string>
+    <string name="btn_delete">Hapus</string>
+
+    <string name="login_title">Selamat Datang</string>
+    <string name="login_subtitle">Silakan masuk untuk mengelola kost</string>
+    <string name="login_btn">Masuk Sekarang</string>
+    <string name="register_title">Daftar Akun Baru</string>
+    <string name="register_link">Belum punya akun? Daftar</string>
+    <string name="register_btn">Daftar Sekarang</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="error_login_failed">Login gagal, cek username/password</string>
+
+    <string name="home_title">Daftar Kost Saya</string>
+    <string name="home_empty">Belum ada data kost. Klik + untuk tambah.</string>
+    <string name="fab_add_kost">Tambah Kost</string>
+
+    <string name="entry_kost_title">Tambah Kost Baru</string>
+    <string name="label_nama_kost">Nama Kost</string>
+    <string name="hint_nama_kost">Contoh: Wisma Sejahtera</string>
+    <string name="label_alamat">Alamat Lengkap</string>
+    <string name="btn_save_kost">Simpan Kost</string>
+
+    <string name="dashboard_title">Dashboard Kamar</string>
+    <string name="dashboard_empty">Belum ada kamar.</string>
+    <string name="status_occupied">TERISI</string>
+    <string name="status_available">KOSONG</string>
+    <string name="fab_add_kamar">Tambah Kamar</string>
+
+    <string name="entry_kamar_title">Tambah Kamar</string>
+    <string name="label_nomor_kamar">Nomor Kamar</string>
+    <string name="hint_nomor_kamar">Contoh: A01, B02</string>
+    <string name="label_harga">Harga per Bulan</string>
+    <string name="btn_save_kamar">Simpan Kamar</string>
+
+    <string name="checkin_title">Form Check-In</string>
+    <string name="label_nama_penghuni">Nama Lengkap Penghuni</string>
+    <string name="label_no_hp">Nomor HP / WA</string>
+    <string name="label_foto_ktp">Foto Identitas (KTP)</string>
+    <string name="btn_choose_photo">Pilih Foto dari Galeri</string>
+    <string name="btn_change_photo">Ganti Foto</string>
+    <string name="btn_submit_checkin">Check-In Sekarang</string>
+
+    <string name="detail_penghuni_title">Detail Penghuni</string>
+    <string name="label_tgl_masuk">Tanggal Masuk</string>
+    <string name="btn_checkout">Check Out (Kosongkan Kamar)</string>
+    <string name="btn_manage_payment">Kelola Pembayaran</string>
+
+    <string name="payment_title">Keuangan Penghuni</string>
+    <string name="payment_input_title">Catat Pembayaran Baru</string>
+    <string name="label_nominal">Nominal (Rp)</string>
+    <string name="label_keterangan">Keterangan</string>
+    <string name="hint_keterangan">Cth: Bayar Januari, Uang Muka</string>
+    <string name="btn_save_payment">Simpan Pembayaran</string>
+    <string name="payment_history_title">Riwayat Transaksi</string>
+    <string name="payment_empty">Belum ada data pembayaran.</string>
+
+    <string name="edit_kost_title">Edit Data Kost</string>
+    <string name="edit_kost_subtitle">Perbarui data lokasi kost</string>
+    <string name="edit_kamar_title">Edit Data Kamar</string>
+    <string name="edit_penghuni_title">Edit Data Penghuni</string>
+    <string name="btn_save_changes">Simpan Perubahan</string>
+    <string name="photo_change_hint">Ketuk foto untuk mengubahnya</string>
+
+    <string name="error_required_field">Wajib diisi</string>
+    <string name="error_number_only">Hanya boleh angka</string>
+    <string name="empty_data">Belum ada data.</string>
 </resources>
