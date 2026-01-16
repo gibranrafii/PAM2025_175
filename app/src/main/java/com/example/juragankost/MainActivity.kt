@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.juragankost.ui.theme.JuraganKostTheme
+import com.example.juragankost.uicontroller.route.PengelolaHalaman
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,10 +21,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             JuraganKostTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    // Panggil Navigasi Utama
+                    PengelolaHalaman()
                 }
             }
         }
