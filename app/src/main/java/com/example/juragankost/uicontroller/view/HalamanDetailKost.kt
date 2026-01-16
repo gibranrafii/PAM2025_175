@@ -260,7 +260,7 @@ fun ItemKamarSage(
                             Icon(
                                 Icons.Outlined.Delete,
                                 null,
-                                tint = Color.LightGray,
+                                tint = Color.Gray,
                                 modifier = Modifier.size(20.dp)
                             )
                         }

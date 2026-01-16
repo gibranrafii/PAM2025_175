@@ -2,8 +2,10 @@ package com.example.juragankost.uicontroller.view
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.DateRange
@@ -185,7 +187,12 @@ fun PenghuniContent(
 ) {
     val imageUrl = "http://10.0.2.2/JuraganKostAPI/images/${penghuni.fotoKtpPath}"
 
-    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState()),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
 
         // 1. FOTO KTP
         Card(
@@ -206,7 +213,7 @@ fun PenghuniContent(
             )
         }
 
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(19.dp))
 
         // 2. DATA DIRI
         Card(
@@ -236,7 +243,7 @@ fun PenghuniContent(
             }
         }
 
-        Spacer(modifier = Modifier.weight(1f))
+        Spacer(modifier = Modifier.height(24.dp))
 
         // 3. TOMBOL AKSI
         Button(
